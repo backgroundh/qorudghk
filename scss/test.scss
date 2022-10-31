@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    // flex-flow:;
+    // flex-direction: row;
+    // justify-content: ;
+    // align-items: ;
+    // align-content: ;
+    & .item {
+        flex: 30%;
+        border: 1px solid red;
+        // order: ;
+        // align-self: ;
+
+        & img {
+            width: 100%;
+        }
+    }
+}

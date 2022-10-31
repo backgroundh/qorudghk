@@ -1,0 +1,85 @@
+body {
+    background-image: url(../image/s1_back.png);
+    background-size: 90%;
+    background-color: #eaeaea;
+}
+
+// .proLeft {
+//     width: 100%;
+//     float: left;
+//     padding-top: 5%;
+//     .proThum {
+//         width: 50%;
+//         float: left;
+//         height: 700px;
+//         overflow: hidden;
+//         img {
+//             width: 100%;
+//         }
+//     }
+//     .proDetail {
+//         width: 50%;
+//         float: left;
+//     }
+// }
+
+// .proRight {
+//     width: 100%;
+//     float: right;
+//     // padding-top: 5%;
+//     .proThum {
+//         width: 50%;
+//         float: right;
+//         height: 700px;
+//         overflow: hidden;
+//         img {
+//             width: 100%;
+//         }
+//     }
+//     .proDetail {
+//         width: 50%;
+//         float: right;
+//     }
+// }
+
+.pro {
+    position: relative;
+    padding-top: 100px;
+    .proLeft {
+        display: flex;
+
+        .proThum {
+            flex: 50%;
+            height: 600px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .proDetail {
+            flex: 50%;
+            padding: 100px;
+        }
+    }
+}
+.pro {
+    position: relative;
+    padding-top: 100px;
+    .proRight {
+        display: flex;
+        flex-direction: row-reverse;
+
+        .proThum {
+            flex: 50%;
+            height: 600px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .proDetail {
+            flex: 50%;
+            padding: 100px;
+        }
+    }
+}
